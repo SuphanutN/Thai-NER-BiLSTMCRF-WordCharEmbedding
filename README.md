@@ -70,7 +70,9 @@ Tag
 
 The model is too large, you can train it yourself with the given dataset or the update dataset.
 Or you can download my model weight at this link below and save in your model path (For me, MODEL_PATH = f'{DATA_PATH}model/Keras/WordCharModel/')
-https://drive.google.com/open?id=1RIeAgJVqWRVvDjlCOBetTYHmyea9XYg5
+
+- https://drive.google.com/open?id=1RIeAgJVqWRVvDjlCOBetTYHmyea9XYg5
+
 the result shown below use ep.46 from 50 epoch
 
 
