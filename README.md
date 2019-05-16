@@ -17,11 +17,13 @@ Perform keras backend
 - Char Embedding : Bi-LSTM training from scratch 32 dimension
 
 ## Thank to 
+
 - K.Wannaphong Phatthiyaphaibun (https://github.com/wannaphongcom/thai-ner) for dataset and the initial of Thai NER project
 - https://www.depends-on-the-definition.com/lstm-with-char-embeddings-for-ner/ for embedding method
 - K.Charin (https://github.com/cstorm125/thai2fit) for the word embbeding (Thai2Fit)
 
 # Requirements
+
 * python = 3.5.2 +
 * keras = 2.1.6
 
@@ -63,6 +65,14 @@ Tag
 - lstm_recurrent_dropout = 0.5
 - train_batch_size = 32
 - train_epochs = 50
+
+## Model
+
+The model is too large, you can train it yourself with the given dataset or the update dataset.
+Or you can download my model weight at this link below and save in your model path (For me, MODEL_PATH = f'{DATA_PATH}model/Keras/WordCharModel/')
+https://drive.google.com/open?id=1RIeAgJVqWRVvDjlCOBetTYHmyea9XYg5
+the result shown below use ep.46 from 50 epoch
+
 
 ## Result
 ```
