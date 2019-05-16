@@ -3,7 +3,7 @@ Thai Named Entity Recognition with BiLSTM-CRF using Word/Character Embedding
 
 Author: Suphanut Thattinaphanich
 
-* The paper will release soon in some conference in the future (still in progress) *
+[The paper will release soon in some conference in the future (still in progress)]
 
 ## Description
 
