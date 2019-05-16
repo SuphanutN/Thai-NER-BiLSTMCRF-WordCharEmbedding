@@ -18,6 +18,10 @@ Perform keras backend
 - https://www.depends-on-the-definition.com/lstm-with-char-embeddings-for-ner/ for embedding method
 - Charin (https://github.com/cstorm125/thai2fit) for the word embbeding (Thai2Fit)
 
+# Requirements
+* python = 3.5.2 +
+* keras = 2.1.6
+
 ## Dataset
 
 The dataset is come from (https://github.com/wannaphongcom/thai-ner/blob/master/model/1.1/datatrain.data)
@@ -51,3 +55,13 @@ Tag
 ## Result
 
 * in progress *
+
+## Citation
+
+```
+Suphanut Thattinaphanich (2019). Thai Named Entity Recognition with BiLSTM-CRF in Keras. May 16, 2019. See https://github.com/SuphanutN/Thai-NER-BiLSTM-WordCharEmbedding
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
