@@ -6,6 +6,7 @@ Author: Suphanut Thattinaphanich
 [The paper will release soon in some conference in the future (still in progress)]
 
 Medium
+
 [in progress]
 
 ## Description
@@ -69,6 +70,7 @@ Tag
 ## Model
 
 The model is too large, you can train it yourself with the given dataset or the update dataset.
+
 Or you can download my model weight at this link below and save in your model path (For me, MODEL_PATH = f'{DATA_PATH}model/Keras/WordCharModel/')
 
 - https://drive.google.com/open?id=1RIeAgJVqWRVvDjlCOBetTYHmyea9XYg5
