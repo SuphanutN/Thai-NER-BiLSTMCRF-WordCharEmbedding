@@ -120,3 +120,7 @@ Suphanut Thattinaphanich (2019). Thai Named Entity Recognition with BiLSTM-CRF i
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Contact
+
+If you have any question, you can create an issure or send me a message to suphanut.tha@gmail.com
