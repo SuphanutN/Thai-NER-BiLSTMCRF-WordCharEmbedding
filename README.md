@@ -17,7 +17,7 @@ Perform keras backend
 - Char Embedding : Bi-LSTM training from scratch 32 dimension
 
 ## Thank to 
-- K.Wannaphong Phatthiyaphaibun (https://github.com/wannaphongcom/thai-ner) for the initial of the Thai NER project
+- K.Wannaphong Phatthiyaphaibun (https://github.com/wannaphongcom/thai-ner) for dataset and the initial of Thai NER project
 - https://www.depends-on-the-definition.com/lstm-with-char-embeddings-for-ner/ for embedding method
 - K.Charin (https://github.com/cstorm125/thai2fit) for the word embbeding (Thai2Fit)
 
@@ -27,10 +27,10 @@ Perform keras backend
 
 ## Dataset
 
-The dataset is come from (https://github.com/wannaphongcom/thai-ner/blob/master/model/1.1/datatrain.data)
+The dataset retrieve from (https://github.com/wannaphongcom/thai-ner/blob/master/model/1.1/datatrain.data)
 
-This dataset is crowdsourcing for ThaiNER project. 
-For anyone who interest to contribute this project, you can help labelling the dataset at https://thainlp-203815.appspot.com/add.html?fbclid=IwAR0EnfMJQyVE2z1md66hDjreR8m1y2kt99b_TbqbssMrazwnMq4SQHt9w4I
+This dataset is ThaiNER crowdsourcing project. 
+If someone interest to contribute this project, you can help labelling the dataset at https://thainlp-203815.appspot.com/add.html?fbclid=IwAR0EnfMJQyVE2z1md66hDjreR8m1y2kt99b_TbqbssMrazwnMq4SQHt9w4I
 
 The dataset contain 50593 tokens include BIO format. 
 
