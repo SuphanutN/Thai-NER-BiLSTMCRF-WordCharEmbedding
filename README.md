@@ -35,13 +35,13 @@ The dataset retrieve from (https://github.com/wannaphongcom/thai-ner/blob/master
 This dataset is ThaiNER crowdsourcing project. 
 If someone interest to contribute this project, you can help labelling the dataset at https://thainlp-203815.appspot.com/add.html?fbclid=IwAR0EnfMJQyVE2z1md66hDjreR8m1y2kt99b_TbqbssMrazwnMq4SQHt9w4I
 
-The dataset contain 50593 tokens in BIO format. 
+The dataset contain 6,148 sentences (50,593 tokens) in BIO format. 
 
-Split random document as train 80% test 20%. 
+Split random sentences as train 80% test 20%. 
 
-Train: 40,545 tokens‬
+Train: 4,918 sentences (40,545 tokens‬)
 
-Test: 10048 tokens
+Test: 1,230 sentences (10,048 tokens)
 
 Tag
 
