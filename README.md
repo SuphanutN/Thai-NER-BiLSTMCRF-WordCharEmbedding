@@ -17,12 +17,6 @@ Perform keras backend
 - Word Embedding : v. 0.32 Thai2Fit 400 dimension
 - Char Embedding : Bi-LSTM training from scratch 32 dimension
 
-## Thank to 
-
-- K.Wannaphong Phatthiyaphaibun (https://github.com/wannaphongcom/thai-ner) for dataset and the initial of Thai NER project
-- https://www.depends-on-the-definition.com/lstm-with-char-embeddings-for-ner/ for embedding method
-- K.Charin (https://github.com/cstorm125/thai2fit) for the word embbeding (Thai2Fit)
-
 # Requirements
 
 * python = 3.5.2 +
@@ -112,6 +106,14 @@ I-ORGANIZATION     0.8407    0.8071    0.8235      1327
 
      micro avg     0.9183    0.9149    0.9166     10048
 ```
+
+## Reference (And Thank to)
+
+- https://www.depends-on-the-definition.com/lstm-with-char-embeddings-for-ner/ for main idea code and overview model
+- K.Wannaphong Phatthiyaphaibun (https://github.com/wannaphongcom/thai-ner) for dataset and the initial of Thai NER project
+- K.Charin (https://github.com/cstorm125/thai2fit) for the word embbeding (Thai2Fit)
+- Nils Reimers and Iryna Gurevych (https://arxiv.org/pdf/1707.06799.pdf) for Optimal Hyperparameters for Deep LSTM-Networks for Sequence Labeling Tasks
+- Xuezhe Ma and Eduard Hovy (https://arxiv.org/pdf/1603.01354v5.pdf) for End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF
 
 ## Citation
 
