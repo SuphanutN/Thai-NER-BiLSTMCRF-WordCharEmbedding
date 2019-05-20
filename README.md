@@ -29,27 +29,28 @@ The dataset retrieve from (https://github.com/wannaphongcom/thai-ner/blob/master
 This dataset is ThaiNER crowdsourcing project. 
 If someone interest to contribute this project, you can help labelling the dataset at https://thainlp-203815.appspot.com/add.html?fbclid=IwAR0EnfMJQyVE2z1md66hDjreR8m1y2kt99b_TbqbssMrazwnMq4SQHt9w4I
 
-The dataset contain 6,148 sentences (50,593 tokens) in BIO format. 
+The dataset contain 6,148 sentences (197,704 words / 50,593 NER tokens) in BIO format. 
 
 Split random sentences as train 80% test 20%. 
 
-Train: 4,918 sentences (40,545 tokens‬)
+Train: 4,918 sentences (157,467 words / 40,545 NER tokens‬)
 
-Test: 1,230 sentences (10,048 tokens)
+Test: 1,230 sentences (40237 words / 10,048 NER tokens)
 
 Tag
 
-- DATA - date
+- DATE - date
 - TIME - time
 - EMAIL - email
 - LEN - length
-- LOCATION - Location
-- ORGANIZATION - Company / Organization
-- PERSON - Person name
+- LOCATION - location
+- ORGANIZATION - company / organization
+- PERSON - person name
+- PERCENT - percent number
 - PHONE - phone number
 - URL - url
 - ZIP - ZIP code
-- MONEY - amount
+- MONEY - amount of money
 - LAW - legislation
 
 ## Hyper Parameter
@@ -114,6 +115,7 @@ I-ORGANIZATION     0.8407    0.8071    0.8235      1327
 - K.Charin (https://github.com/cstorm125/thai2fit) for the word embbeding (Thai2Fit)
 - Nils Reimers and Iryna Gurevych (https://arxiv.org/pdf/1707.06799.pdf) for Optimal Hyperparameters for Deep LSTM-Networks for Sequence Labeling Tasks
 - Xuezhe Ma and Eduard Hovy (https://arxiv.org/pdf/1603.01354v5.pdf) for End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF
+- Lampel et al. (https://arxiv.org/pdf/1603.01360.pdf) for Neural Architectures for Named Entity Recognition
 
 ## Citation
 
