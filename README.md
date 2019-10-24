@@ -20,7 +20,7 @@ Perform keras backend
 # Requirements
 
 * python = 3.5.2 +
-* keras = 2.1.6
+* keras = 2.1.6 +
 
 ## Dataset
 
