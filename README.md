@@ -1,8 +1,6 @@
 # Thai-NER-BiLSTM-CRF-WordCharEmbedding
 Thai Named Entity Recognition with BiLSTM-CRF using Word/Character Embedding
 
-Author: Suphanut Thattinaphanich
-
 https://www.researchgate.net/publication/336798652_Thai_Named_Entity_Recognition_Using_Bi-LSTM-CRF_with_Word_and_Character_Representation
 
 Medium
